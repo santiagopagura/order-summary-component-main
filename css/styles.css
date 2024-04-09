@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "MiFuente";
+}
+
+main {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display";
+  max-width: 450px;
+  margin: 25px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 16px 16px 0 0;
+  vertical-align: top;
+}
+
+section {
+  padding: 24px;
+}
+section h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 22px;
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+section p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+}
+section article {
+  display: flex;
+  margin: 24px 0;
+  padding: 16px;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 700;
+}
+section article p {
+  font-size: 14px;
+}
+section article img {
+  width: 50px;
+  height: 50px;
+}
+section article div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+section article div .plan {
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+section article a {
+  margin-left: auto;
+}
+
+.btn {
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+.btn__pay {
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 12px 12px 8px hsl(225, 100%, 94%);
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 8px;
+}
+.btn__pay:active {
+  background-color: hsla(245, 77%, 63%, 0.973);
+}
+.btn__cancel {
+  color: hsl(224, 23%, 55%);
+}
+.btn__cancel:active {
+  color: hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width: 500px) {
+  section {
+    padding: 16px 48px 48px 48px;
+  }
+  section article {
+    padding: 24px;
+  }
+  section article div {
+    margin-left: 24px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
